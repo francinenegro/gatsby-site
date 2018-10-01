@@ -9,6 +9,7 @@ color: white;
 background-size: cover;
 border-radius:20px;
 padding: 20px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 &:hover {
     transform: scale(1.1,1.1);
