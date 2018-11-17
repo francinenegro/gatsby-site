@@ -1,7 +1,22 @@
 {
     "cards":  [
         {
-            "title": "React for designers",
+            "title": "Soldo",
+            "text":  "Mobile app",
+            "image": "/images/wallpaper2.jpg"
+        },
+        {
+            "title": "Soldo",
+            "text":  "Web app",
+            "image": "/images/wallpaper3.jpg"
+        },
+        {
+            "title": "Alidays",
+            "text":  "App onboarding",
+            "image": "/images/wallpaper4.jpg"
+        },
+        {
+            "title": "Alidays",
             "text":  "12 sections",
             "image": "/images/wallpaper2.jpg"
         },
@@ -9,6 +24,11 @@
             "title": "Learn Framer X",
             "text":  "10 sections",
             "image": "/images/wallpaper3.jpg"
+        },
+        {
+            "title": "Learn Figma",
+            "text":  "12 sections",
+            "image": "/images/wallpaper4.jpg"
         },
         {
             "title": "Learn Figma",

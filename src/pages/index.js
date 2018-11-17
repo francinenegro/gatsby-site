@@ -10,9 +10,9 @@ const IndexPage = () => (
     <div>
         <div className="Hero"> 
           <div className="HeroGroup">
-        <h1>React workshop</h1>
-        <p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <h1>Hi, I'm Francesca</h1>
+        <p>I am a Product Designer || Problem solver based in London. I help digital products move from problems to solutions.</p>
+        <Link to="/project-page/">Project</Link>
         </div>
         </div>
 <div className="CardGroup">
