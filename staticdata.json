@@ -3,37 +3,43 @@
         {
             "title": "Soldo",
             "text":  "Mobile app",
-            "image": "/images/wallpaper2.jpg"
+            "image": "/images/soldo-mobile.png"
         },
         {
             "title": "Soldo",
             "text":  "Web app",
-            "image": "/images/wallpaper3.jpg"
+            "image": "/images/soldo-webapp.png"
         },
         {
             "title": "Alidays",
             "text":  "App onboarding",
-            "image": "/images/wallpaper4.jpg"
+            "image": "/images/alidays-onboarding.jpg"
         },
         {
             "title": "Alidays",
-            "text":  "12 sections",
-            "image": "/images/wallpaper2.jpg"
+            "text":  "Fast booking",
+            "image": "/images/alidays-fastbooking.jpg"
         },
         {
-            "title": "Learn Framer X",
-            "text":  "10 sections",
-            "image": "/images/wallpaper3.jpg"
+            "title": "Alidays",
+            "text":  "Internal tool",
+            "image": "/images/alidays-internaltool.jpg"
         },
         {
-            "title": "Learn Figma",
-            "text":  "12 sections",
-            "image": "/images/wallpaper4.jpg"
+            "title": "Alidays",
+            "text":  "Mobile app",
+            "image": "/images/alidays-app.jpg"
         },
         {
-            "title": "Learn Figma",
-            "text":  "12 sections",
-            "image": "/images/wallpaper4.jpg"
+            "title": "Alidays",
+            "text":  "App styleguide",
+            "image": "/images/alidays-appguide.jpg"
+        },
+        
+        {
+            "title": "Miscellaneous",
+            "text":  "Products",
+            "image": "/images/products.png"
         }
     ]
 

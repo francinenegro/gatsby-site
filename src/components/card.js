@@ -1,16 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from '@reach/router';
+
 
 const CardContainer = styled.div`
 /* min-width: 260px; */
 width: 400px;
-height: 225px;
-background: url(${props => props.image}); /*pass the image in the props*/
-color: white;
+height: 300px;
+background-color:rgba(0, 0, 0, 0.5);
+background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+background: url(${props => props.image}) ; /*pass the image in the props*/
+color: white;   
 background-size: cover;
 border-radius:20px;
 padding: 20px;
 margin: 10px;
+cursor: pointer;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 &:hover {
@@ -37,12 +42,25 @@ width: 100%;
 `
 
 const Title = styled.h3 `
+text-transform: uppercase;
+font-size: 26px;
+text-align: left;
+color: #f5f5f5;
+margin-bottom: 4px;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
 `
 
 const Text = styled.p  `
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+position: relative;
+text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
+color: white;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 `
+
 const Card = props => (
     <CardContainer image={props.image}>
     <Title>{props.title}</Title>
