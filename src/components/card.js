@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const CardContainer = styled.div`
 /* min-width: 260px; */
-width: 245px;
+width: 400px;
 height: 225px;
 background: url(${props => props.image}); /*pass the image in the props*/
 color: white;
@@ -27,11 +27,14 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 @media (max-width: 768px) {
-width: 340px;
+width: 280px;
 }
+
+@media (max-width: 640px) {
+width: 100%;
+}
+
 `
-
-
 
 const Title = styled.h3 `
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
