@@ -2,13 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const CardContainer = styled.div`
-width: 300px;
+/* min-width: 260px; */
+width: 245px;
 height: 225px;
 background: url(${props => props.image}); /*pass the image in the props*/
 color: white;
 background-size: cover;
 border-radius:20px;
 padding: 20px;
+margin: 10px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 &:hover {
@@ -22,6 +24,10 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
     p {
         opacity: 0.5;
     }
+}
+
+@media (max-width: 768px) {
+width: 340px;
 }
 `
 
