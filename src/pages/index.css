@@ -14,11 +14,8 @@ a {
     text-decoration: none;
 }
 
-.Hero {
-    /* height: 920px; */
-    /* background: url('/images/wallpaper.jpg'); */
+.Hero, .HeroGroup_about {
     background-size: cover;
-    background-color: black;
     background-position: center;
 }
 
@@ -104,4 +101,11 @@ a {
     .CardGroup {
         grid-template-columns: repeat(1, auto);
     }
+}
+
+.HeroGroup_about {
+    background: url('/images/portrait.jpg');
+    height: 550px;
+    margin: 0 50px;
+    margin-bottom: 50px;
 }

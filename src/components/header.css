@@ -16,7 +16,7 @@
 }
 
 .HeaderScrolled {
-    background: black;
+    background: #0a0a0a;
 }
 
 .HeaderGroup img {
@@ -32,6 +32,10 @@
 .Header a:hover {
     transform: scale(1.1,1.1);
     box-shadow: 0 10px 20px rgba (0,0,0, 0.5);
+    color: rgb(234, 61, 61);
+}
+
+.Header a:active {
     color: rgb(234, 61, 61);
 }
 
