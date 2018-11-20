@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from '@reach/router';
 
-
 const CardContainer = styled.div`
 /* min-width: 260px; */
 width: 400px;
@@ -62,10 +61,12 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 `
 
 const Card = props => (
-    <CardContainer image={props.image}>
-    <Title>{props.title}</Title>
-    <Text>{props.text}</Text>
-    </CardContainer>
+    <Link to={props.link}>
+        <CardContainer image={props.image}>
+            <Title>{props.title}</Title>
+            <Text>{props.text}</Text>
+        </CardContainer>
+    </Link>
 )
 
 export default Card 

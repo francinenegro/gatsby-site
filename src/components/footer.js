@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './footer.css'
+import '../style/footer.css'
 
 class Footer extends React.Component {
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import './project-page.css'
+import '../style/project-page.css'
 import Card from '../components/card'
 import staticdata from "../../staticdata.json"
-import './index.css'
+import '../style/index.css'
 
 const ProjectPage = () => (
   <Layout>

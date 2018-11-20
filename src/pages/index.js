@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Card from '../components/card'
 import Layout from '../components/layout'
 import staticdata from "../../staticdata.json"
-import './index.css'
+import '../style/index.css'
 
 const IndexPage = () => (
   <Layout>
@@ -17,11 +17,7 @@ const IndexPage = () => (
         </div>
 <div className="CardGroup">
       {staticdata.cards.map(card => ( 
-        <Card
-        title={card.title}
-        text={card.text}
-        image={card.image}
-        />
+        <Card {...card } />
       ))}
         </div>
       </div>
