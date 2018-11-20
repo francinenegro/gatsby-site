@@ -6,6 +6,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 color: black;
 line-height: 1.3;
 background-color: #0a0a0a;
+position: relative;
+height: 100%;
 }
 
 a {
@@ -80,6 +82,7 @@ a {
     grid-template-columns: repeat(3, auto); /*using this in lieu of writing auto 5 times*/
     align-items: center;
     justify-items: center;
+    padding-bottom: 300px;    
 }
 
 @media (max-width: 1024px) {

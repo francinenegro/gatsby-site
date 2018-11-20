@@ -54,7 +54,7 @@ When designing a complex solution - to, most likely, a complex problem - I perso
 In the perfect world, there are large parties and gathering being held to celebrate the simple brilliant beauty of the solution and world famine is now a memory just because of this feature’s problem solving abilities.
 In reality, not everyone is pleased (users and/or teammates), other issues have arisen and it might be time to solve niche problems or - regardless the entire process - we might have missed the mark. So, let’s keep faith in the process and start all over again (with more insight).</p>
 <img src="../images/process10.jpg"></img>
-<h6>All illustrations by me, here the article on Medium</h6>
+<h6>All illustrations by me, here the article on <a href="https://medium.com/@francine.negro/the-circle-of-product-design-6c78ade2010e">Medium </a></h6>
     </div>
   </Layout>
 )

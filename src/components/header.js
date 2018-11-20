@@ -29,10 +29,14 @@ class Header extends React.Component {
             /* the line below is to verify the state,the first thing after the ? is the "if true" the other is the "else" */
             <div className={ this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header' }> 
             <div className="HeaderGroup">
-                  <Link to="/"> <img src="/images/myLogoCat.gif" width="30"/></Link>
+                  <Link to="/" > <img src="/images/myLogoCat.gif" width="30"/></Link>
                   <Link to="/">Work</Link>
-                  <Link to="/process">Process</Link>
-                  <Link to="/about">About</Link>
+                  <Link to="/process" activeStyle={{
+            color: "rgb(234, 61, 61)",
+          }}>Process</Link>
+                  <Link to="/about" activeStyle={{
+            color: "rgb(234, 61, 61)",
+          }}>About</Link>
                   </div>
          </div>
         )
