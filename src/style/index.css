@@ -8,6 +8,30 @@ line-height: 1.3;
 background-color: #0a0a0a;
 position: relative;
 height: 100%;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+@media (max-width: 1280px) {
+
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    body {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+    }
 }
 
 a {
@@ -28,6 +52,13 @@ a {
     padding: 150px 50px 50px 50px;
     text-align: left;
 
+}
+
+@media (max-width: 640px) {
+
+    .HeroGroup {
+        padding: 100px 20px 50px 20px;
+    }
 }
 
 .Hero h1{
@@ -76,13 +107,16 @@ a {
 
 
 .CardGroup {
-    margin: 50px; 
     text-align: center;
     display: grid; 
-    grid-template-columns: repeat(3, auto); /*using this in lieu of writing auto 5 times*/
+    grid-template-columns: repeat(3,auto);
+    /* grid-auto-columns: 33.3%; */
     align-items: center;
+    grid-row-gap: 20px;
     justify-items: center;
-    padding-bottom: 300px;    
+    padding-bottom: 300px;  
+    min-height: 0;
+    min-width: 0;
 }
 
 @media (max-width: 1024px) {
@@ -96,6 +130,8 @@ a {
 
     .CardGroup {
         grid-template-columns: repeat(2, auto);
+        margin: 20px
+
     }
 }
 
@@ -103,6 +139,7 @@ a {
 
     .CardGroup {
         grid-template-columns: repeat(1, auto);
+        margin: 0;
     }
 }
 
@@ -112,3 +149,4 @@ a {
     margin: 0 50px;
     margin-bottom: 50px;
 }
+

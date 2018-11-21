@@ -15,7 +15,7 @@ const ProjectPage = () => (
         </div>
         </div>
         </div>
-    <div className="Project-Body_small">
+    <div className="Project-Body">
     <p>Getting from point A to point B is sometimes messy even when we are simply walking — wondering if the path is right, if we are going in the right direction, what if we took that shortcut and so on.
 But when point A is a user problem and point B is an implemented feature, it’s like navigating in open sea with an old map and a faulty compass.
 That is why following a rigorous process — even when time is tight — is key to getting to that point B with as much confidence and data about the solution we chose as possible; but also in order to make it a little easier the following times (and to build an exhaustive documentation for future generations to come).</p>

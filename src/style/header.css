@@ -31,6 +31,7 @@
 
 .Header a:hover {
     transform: scale(1.1,1.1);
+    transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0 10px 20px rgba (0,0,0, 0.5);
     color: rgb(234, 61, 61);
 }
@@ -64,12 +65,12 @@
     padding: 15px 0;
 }
 
-.HeaderGroup {
-    grid-template-columns: repeat(4, auto);
+.Header a{
+    font-size: 13px;
 }
 
-.Header a:nth-child(4) {
-    display: none;
+.HeaderGroup {
+    grid-template-columns: repeat(4, auto);
 }
 }
 

@@ -19,7 +19,7 @@ const IndexPage = () => (
       {staticdata.cards.map(card => ( 
         <Card {...card } />
       ))}
-        </div>
+</div>
       </div>
   </Layout>
 )

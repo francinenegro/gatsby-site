@@ -93,7 +93,7 @@ a {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 10px 50px;
+    padding: 10px 80px;
     padding-bottom: 300px;
 }
 
@@ -140,7 +140,7 @@ a {
     padding: 15px;
   }
 
-  .Project-Body_small {
+  /* .Project-Body_small {
     max-width: 960px;
     margin: 0 auto;
     background-size: cover;
@@ -148,13 +148,13 @@ a {
     color: white;
     padding: 10px 50px;
     padding-bottom:300px;
-  }
+  } */
 
-  .Project-Body_small_image     {
+  /* .Project-Body_small   img{
     max-width: 960px;
     margin: 0 auto;
     background-size: cover;
     background-position: center;
     color: white;
     padding: 10px 50px;
-  }
+  } */

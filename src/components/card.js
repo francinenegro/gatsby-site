@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { Link } from '@reach/router';
 
 const CardContainer = styled.div`
-/* min-width: 260px; */
-width: 400px;
+min-width: 260px;
+width:390px;
 height: 300px;
 background-color:rgba(0, 0, 0, 0.5);
 background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
@@ -31,11 +31,11 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 @media (max-width: 768px) {
-width: 280px;
+/* width: 280px; */
 }
 
 @media (max-width: 640px) {
-width: 100%;
+/* width: 100%; */
 }
 
 `
