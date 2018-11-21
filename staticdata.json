@@ -3,7 +3,8 @@
         {
             "title": "Soldo",
             "text":  "Mobile app",
-            "image": "/images/soldo-mobile.png"
+            "image": "/images/soldo-mobile.png",
+            "url": "/soldo-app"
         },
         {
             "title": "Soldo",
