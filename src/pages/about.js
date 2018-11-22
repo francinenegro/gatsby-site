@@ -11,7 +11,7 @@ const AboutPage = () => (
         </div>
     <div className="Project-Body">
     <p>Problem solver, no matter the problem/<br></br>
-I have extensive experience in understanding and translating what people express, so that it becomes a clear directed instruction we can then work on/
+I have extensive experience in understanding and translating what people express, so that it becomes a clear directed instruction we can then work on/<br></br>
 I strive to make things easier for the user, and believe that user testing and feedbacks are both a cure and a curse/<br></br>
 I have a degree in Psychology then pivoted towards design/<br></br>
 I am an aesthete/<br></br>

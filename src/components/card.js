@@ -15,7 +15,7 @@ border-radius:20px;
 padding: 20px;
 margin: 10px;
 cursor: pointer;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Raleway', sans-serif;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 &:hover {
     transform: scale(1.1,1.1);
@@ -48,6 +48,7 @@ color: #f5f5f5;
 margin-bottom: 4px;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
+font-family: 'Raleway', sans-serif;
 `
 
 const Text = styled.p  `
@@ -58,6 +59,7 @@ position: relative;
 text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
 color: white;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+font-family: 'Raleway', sans-serif;
 `
 
 const Card = props => (

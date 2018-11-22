@@ -3,13 +3,13 @@
         {
             "title": "Soldo",
             "text":  "Mobile app",
-            "image": "/images/soldo-mobile.png",
+            "image": "/images/soldo-mobile.jpg",
             "link": "/soldo-app"
         },
         {
             "title": "Soldo",
             "text":  "Web app",
-            "image": "/images/soldo-webapp.png",
+            "image": "/images/soldo-webapp.jpg",
             "link": "/soldo-webapp"
         },
         {
@@ -46,7 +46,7 @@
         {
             "title": "Miscellaneous",
             "text":  "Products",
-            "image": "/images/products.png",
+            "image": "/images/products-cover.jpg",
             "link": "/products"
         }
     ]
