@@ -8,8 +8,9 @@ const ProjectPage = () => (
         <div>
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
-            <h2>App Onboarding Graphics</h2>
-            <h3>Onboarding screens animations designed for the app, describing the various features while setting up the preferences.</h3>
+            <h2>App Onboarding</h2>
+            <h3>Designed for Alidays, a travel company always striving to improve their experience through technology.</h3>
+            <p><br></br>Onboarding screens animations designed for the app, describing the various features while setting up the preferences.</p>
         </div>
         </div>
         </div>

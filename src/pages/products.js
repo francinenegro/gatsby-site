@@ -9,7 +9,7 @@ const ProjectPage = () => (
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
             <h2>Products</h2>
-            <h3>Actual factual objects available for purchase. Iphone cases, mugs, rugs, tshirts, framed and canvas prints, laptop cases, pillows etc.
+            <h3>Actual factual objects available for purchase. iPhone cases, mugs, rugs, t-shirts, framed and canvas prints, laptop cases, pillows etc.
 Purchase following the link:
 http://society6.com/francinefourteen</h3>
         </div>

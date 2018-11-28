@@ -8,7 +8,7 @@ const ProjectPage = () => (
         <div>
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
-            <h2>Soldo - Mobile Apps</h2>
+            <h2>Mobile app</h2>
             <h3>Soldo Business is a payment platform that allows companies to control more efficiently their employees' spending.</h3>
         </div>
         </div>

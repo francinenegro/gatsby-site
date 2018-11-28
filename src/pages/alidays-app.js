@@ -12,7 +12,8 @@ const ProjectPage = () => (
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
             <h2>Alidays App</h2>
-            <h3>Company app for travelers with an adventurous mind and an eye toward technology.</h3>
+            <h3>Designed for Alidays, a travel company always striving to improve their experience through technology.</h3>
+            <h3>The company developed app for travelers with an adventurous mind and an eye toward technology.</h3>
         </div>
         </div>
         </div>
