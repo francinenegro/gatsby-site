@@ -212,7 +212,8 @@ animation: HeroAnimation 3s 0.2s forwards;
 
     .About_container {
     grid-template-columns: repeat(1, auto);
-    padding: 100px 20px 10px 20px !important;
+    padding: 100px 20px 300px 20px !important;
+    
 };
     
 }
