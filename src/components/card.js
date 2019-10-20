@@ -13,7 +13,7 @@ color: white;
 background-size: cover;
 border-radius:4px;
 padding: 20px;
-margin: 10px;
+// margin: 10px;
 cursor: pointer;
 font-family: 'Raleway', sans-serif;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
@@ -42,7 +42,7 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 
 const Title = styled.h3 `
 text-transform: uppercase;
-font-size: 26px;
+font-size: 22px;
 text-align: left;
 color: #f5f5f5;
 margin-bottom: 4px;

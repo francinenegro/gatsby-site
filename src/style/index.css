@@ -1,14 +1,14 @@
     body {
-font-size: 18px;
-font-family: 'Raleway', sans-serif;
-color: black;
-line-height: 1.5;
-background-color: #0a0a0a;
-position: relative;
-height: 100%;
-margin-left: 80px !important;
-margin-right: 80px !important;
-}
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+            line-height: 1.5;
+            background-color: #0d0d0d;
+            position: relative;
+            height: 100%;
+            margin-left: 80px !important;
+            margin-right: 80px !important;
+        }
 
 @media (max-width: 1280px) {
 
@@ -49,7 +49,7 @@ a {
     /* max-width: 500px; */
     margin: 0 auto;
     color: white;
-    padding: 150px 50px 150px 30px;
+    padding: 250px 50px 250px 30px;
     text-align: left;
 
 }
@@ -119,8 +119,10 @@ a {
     /* grid-auto-columns: 33.3%; */
     align-items: center;
     grid-row-gap: 20px;
+    grid-column-gap: 10px;
     justify-items: center;
-    padding-bottom: 300px;  
+    /* padding-bottom: 80px; */
+    padding: 50px 0px 150px 0px; 
     min-height: 0;
     min-width: 0;
 }
@@ -159,3 +161,50 @@ a {
     grid-template-columns: repeat(2, auto)
 }
 
+.SectionGroup {
+    /* max-width: 500px; */
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 50px 50px 200px 30px;
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+    text-align: left;
+
+}
+
+.SectionGroup p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0; 
+    /* margin: 0px 10px; */
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.CardSection{
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+    font-size: 22px;
+    line-height: 1.5;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.LastSectionGroup {
+    /* max-width: 500px; */
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 50px 50px 500px 30px;
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+    text-align: left;
+
+}
+
+.LastSectionGroup p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0; 
+    /* margin: 0px 10px; */
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+    font-family: 'Raleway', sans-serif;
+}

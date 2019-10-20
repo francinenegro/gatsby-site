@@ -1,5 +1,5 @@
 .Footer {
-    z-index: 100;
+    z-index: 1;
     position: absolute;
     left: 0;
     right: 0;
@@ -7,7 +7,7 @@
     width: 100%;
     color: white;
     text-align: center;
-    background-color: #0a0a0a;
+    background-color: #0d0d0d;
     padding: 20px;
     display: block;
     padding-bottom: 50px; 
