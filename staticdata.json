@@ -1,5 +1,20 @@
 {
     "cards":  [
+
+        {
+            "title": "THE OUT",
+            "text":  "Products",
+            "image": "/images/products-cover.jpg",
+            "link": "/the-out"
+        },
+
+        {
+            "title": "Tes",
+            "text":  "Products",
+            "image": "/images/products-cover.jpg",
+            "link": "/tes"
+        },
+
         {
             "title": "Soldo",
             "text":  "Mobile app",
@@ -35,19 +50,6 @@
             "text":  "Mobile app",
             "image": "/images/alidays-app.jpg",
             "link": "/alidays-app"
-        },
-        {
-            "title": "Alidays",
-            "text":  "App styleguide",
-            "image": "/images/alidays-appguide.jpg",
-            "link": "/alidays-style"
-        },
-        
-        {
-            "title": "Miscellaneous",
-            "text":  "Products",
-            "image": "/images/products-cover.jpg",
-            "link": "/products"
         }
     ]
 
