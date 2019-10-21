@@ -170,7 +170,7 @@ a {
     /* max-width: 500px; */
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.8);
-    padding: 50px 50px 200px 30px;
+    padding: 50px 50px 250px 30px;
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     text-align: left;
 
@@ -190,7 +190,7 @@ a {
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     font-size: 22px;
     line-height: 1.5;
-    padding-left: 30px;
+    padding-left: 40px;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -213,3 +213,8 @@ a {
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     font-family: 'Raleway', sans-serif;
 }
+
+.HeroGroup {
+    opacity: 0; 
+    animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
+}   
