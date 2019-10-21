@@ -10,9 +10,12 @@ const IndexPage = () => (
     <div>
         <div className="Hero"> 
           <div className="HeroGroup">
-        <h1>Hi, I'm Francesca</h1>
+        <h1>Lorem ipsum</h1>
         <p>I am a Product Designer || Problem solver based in London.
         <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the about page.</p>
+        </div>
+        <div className="CardGroup">
+        <img src="/images/lightbulb_outline.png" width="100px"></img>
         </div>
         </div>
         
