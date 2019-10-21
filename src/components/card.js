@@ -51,8 +51,8 @@ text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
 font-family: 'Raleway', sans-serif;
 `
 
-const Text = styled.p  `
-font-size: 20px;
+const Text = styled.h6  `
+font-size: 14x;
 font-weight: 400;
 text-align: left;
 position: relative;
