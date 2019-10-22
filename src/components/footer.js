@@ -16,7 +16,7 @@ class Footer extends React.Component {
                     <a href="https://medium.com/@francine.negro" target="blank">  <img src="/images/icons/Medium.svg"></img></a>
                 </div>
                 <div> 
-                    <h6>ALL CONTENT IS NOT AVAILABLE FOR PERSONAL USE OR DOWNLOAD, UNLESS OTHERWISE STATED.<br></br>PORTFOLIO BY ME, CODED USING GATSBY AND REACT<br></br>Copyright Francesca Negro 2018.</h6></div>
+                    <h6>ALL CONTENT IS NOT AVAILABLE FOR PERSONAL USE OR DOWNLOAD, UNLESS OTHERWISE STATED.<br></br>PORTFOLIO BY ME, CODED USING GATSBY AND REACT<br></br>Copyright Francesca Negro 2019.</h6></div>
                 </div>
         )
     }

@@ -8,21 +8,25 @@
     color: white;
     text-align: center;
     background-color: #0d0d0d;
-    padding: 20px;
+    padding: 100px 20px 50px 20px;
     display: block;
-    padding-bottom: 50px; 
     font-family: 'Raleway', sans-serif;
 }
 
 
 .FooterGroup {
-    max-width: 500px;
+    max-width: 580px;
     margin: 0 auto;
+    padding: 40px 40px 40px 40px;
     display: grid; 
     grid-template-columns: repeat(5, auto); /*using this in lieu of writing auto 5 times*/
     gap: 10px 10px 10px 10px 10px 10px;
     align-items: center;
     justify-items: center;
+    margin-top: -150px;
+    background-color: #0d0d0d;
+    box-shadow: 0 6px 10px 0 rgba(13,13,13,0.50);
+    border-radius: 4px;
 }
 
 .FooterGroup img {
@@ -31,15 +35,14 @@
 }
 
 .Footer h6 {
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     font-weight: 300;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     line-height: 1.5;
     opacity: .6;
-
     }
     
 
