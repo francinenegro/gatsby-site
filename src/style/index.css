@@ -6,15 +6,28 @@
             background-color: #0d0d0d;
             position: relative;
             height: 100%;
-                /* margin-left: 80px !important;
-                margin-right: 80px !important; */
+            overflow-x: hidden;
         }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px)  {
 
     body {
         margin-left: 40px !important;
         margin-right: 40px !important; 
+    }
+
+    .SectionGroup {
+        margin-left: 50 px !important;
+        margin-right: 50 px !important;
+    }
+
+    .CardSection     {
+        margin: 0;
+    }
+
+    .LastSectionGroup {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
     }
 }
 
@@ -24,14 +37,67 @@
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+    
+    .Hero {
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+        margin-top: 20px !important;;
+        grid-template-columns: repeat(1, auto) !important;
+        justify-items: center !important;
+        align-items: center !important;
+        /* margin: 0 !important; */
 }
 
-@media (max-width: 768px) {
+    .SectionGroup {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        grid-template-columns: repeat(1, auto) !important;
+        align-items: center !important;
+        justify-items: center !important;
+    }
+    .CardSection {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        
+    }
+
+    .LastSectionGroup {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        grid-template-columns: repeat(1, auto) !important;
+        align-items: center !important;
+        justify-items: center !important;
+        margin: 0;
+}
+
+}
+
+@media (min-width: 768px) {
 
     body {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
+    .Hero {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .SectionGroup {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .CardSection {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+    .LastSectionGroup {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
 }
 
 a {
@@ -57,7 +123,7 @@ a {
 @media (max-width: 640px) {
 
     .HeroGroup {
-        padding: 100px 20px 50px 20px;
+        padding: 10px 20px 50px 20px;
     }
 
     .Hero h1 {
@@ -141,11 +207,12 @@ a {
     }
 }
 
+
 @media (max-width: 768px) {
 
     .CardGroup {
-        grid-template-columns: repeat(2, auto);
-        margin: 20px
+        grid-template-columns: repeat(1, auto);
+        margin: 0px
 
     }
 }
@@ -156,6 +223,7 @@ a {
         grid-template-columns: repeat(1, auto);
         margin: 0;
     }
+    
 }
 
 .HeroGroup_about {
@@ -173,8 +241,8 @@ a {
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.8);
     padding: 80px 40px 180px 40px;
-    margin-left: 130px !important;
-    margin-right: 130px !important; 
+    margin-left: 130px;
+    margin-right: 130px; 
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     text-align: left;
     display: grid;
@@ -200,8 +268,8 @@ a {
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     font-size: 22px;
     line-height: 1.5;
-    margin-left: 130px !important;
-    margin-right: 130px !important; 
+    margin-left: 130px;
+    margin-right: 130px; 
     color: rgba(255, 255, 255, 0.8);
     margin-top: -233px;
     background-color: #0d0d0d;
@@ -214,8 +282,8 @@ a {
     /* max-width: 500px; */
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.8);
-    margin-left: 130px !important;
-    margin-right: 130px !important; 
+    margin-left: 130px;
+    margin-right: 130px; 
     padding: 40px 40px 250px 40px;
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     text-align: left;

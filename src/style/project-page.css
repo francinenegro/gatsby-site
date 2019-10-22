@@ -28,8 +28,10 @@ a {
     font-family: 'Playfair Display', sans-serif;
     max-width: 960px;
     color: white;
-    padding: 150px 50px 50px 80px;    
+    padding: 150px 50px 50px 50px;    
     text-align: left;
+    /* margin-left: 80px;
+    margin-right: 80px; */
 }
 
 .Project-Hero h2{
@@ -97,9 +99,11 @@ a {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 10px 80px;
+    padding: 10px 50px;
     padding-bottom: 300px;
     font-family: 'Raleway', sans-serif;
+    /* margin-left: 80px;
+    margin-right: 80px; */
 }
 
 

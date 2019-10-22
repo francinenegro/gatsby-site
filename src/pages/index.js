@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
         <div>
           {/* <div className="BannerSlim"></div> */}
-        <div className="Hero"> 
+    <div className="Hero"> 
           <div className="HeroGroup">
         <h1>Lorem ipsum</h1>
         <p>I am a Product Designer || Problem solver based in London.
@@ -18,8 +18,8 @@ const IndexPage = () => (
         <div className="HeroGroup">
         <img src="/images/ghost.gif" width="150px"></img>
         </div>
-        </div>  
-        <div className="Banner"></div>
+    </div>  
+<div className="Banner"></div>
 <div className="CardSection">
 <h2>Case studies</h2>
 <p>I am a Product Designer || Problem solver based in London.
