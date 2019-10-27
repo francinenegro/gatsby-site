@@ -357,7 +357,7 @@ h6 {
 }
 
 .Banner {
-    background: url('/images/background_white.png');
+    background: url('/images/background_white_sm.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 35%;
@@ -368,7 +368,7 @@ h6 {
 }
 
 .BannerSlim {
-    background: url('/images/background_white.png');
+    background: url('/images/background_white_sm.png');
     opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -389,7 +389,7 @@ h6 {
 }
 
 .BannerLast {
-    background: url('/images/background_white.png');
+    background: url('/images/background_white_sm.png');
     opacity: .8;
     background-size: cover;
     background-repeat: no-repeat;
