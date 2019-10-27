@@ -8,6 +8,10 @@ const ProjectPage = () => (
         <div>
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      </link>
+    <a href="/"><i class="material-icons md-48" >arrow_back</i></a>
             <h2>Mobile app</h2>
             <h3>Soldo Business is a payment platform that allows companies to control more efficiently their employees' spending.</h3>
         </div>

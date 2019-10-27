@@ -31,21 +31,21 @@ const IndexPage = () => (
 </div>
 <div className="">
   <div className="SecondarySection">
-  <h2>Other projects and might be interesting about me and what I did</h2>
+  <h2>Other projects I worked on in this lifetime</h2>
     <div className="listItem">
+    <div className="listItem">
+    <a href="soldo-app">Soldo app</a>
+    <h4>Soldo's app, specifically designed for admins to keep an eye on the employee's spending.</h4>
+    <h6>Fintech, 2018</h6>    
+    </div>
     <a href="alidays-app">Alidays App</a>
-    <h4>A little copy here about what it was, what I did for the project and such</h4>
-    <h6>Milan, 2019</h6>
+    <h4>The company's first app, dedicated to the customers that had booked a trip and also who wanted to discover what to do during their trip.</h4>
+    <h6>Travel, 2016</h6>
     </div>
     <div className="listItem">
     <a href="alidays-fast">Alidays Fast booking</a>
-    <h4>A little copy here about what it was</h4>
-    <h6>Milan, 2019</h6>    
-    </div>
-    <div className="listItem">
-    <a href="alidays-style">Soldo Onboarding</a>
-    <h4>A little copy here about what it was</h4>
-    <h6>Milan, 2019</h6>    
+    <h4>A new approach to booking hotels and flights to satisfy the need of internal users.</h4>
+    <h6>Travel, 2016</h6>    
     </div>
   </div>
 </div>
@@ -55,8 +55,8 @@ const IndexPage = () => (
    <div className="SectionGroup">
         <div>
         <h2>Process</h2>
-        <p>I am a Product Designer || Problem solver based in London.
-        <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the <a href="https://medium.com/@francine.negro/the-circle-of-product-design-6c78ade2010e">process page</a></p></div>
+        <p>When the stars align, The Process shows itself in its overwhelming splendor.
+        <br></br>To commemorate that moment, I wrote an article about it - <a href="https://medium.com/@francine.negro/the-circle-of-product-design-6c78ade2010e" target="_blank">The Process</a> - <br></br> and how I like to use it to make better decisions in product stuff.<br></br>I promise it's worth the 7 minute read.</p></div>
         <div className="">
         <img src="/images/lightbulb1.png" width="150px"></img>
         </div>
@@ -66,8 +66,7 @@ const IndexPage = () => (
    <div className="LastSectionGroup">
         <div>
         <h2>About me</h2>
-        <p>I am a Product Designer || Problem solver based in London.
-        <br></br>I help digital products move from <a href="about">about</a> problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the <a href="about">about</a> page.</p>
+        <p>So, if you scrolled this far you might be interested to click on <br></br>this magic link here to the <a href="about">about page</a> where some light will be shed on<br></br> the mystery author.<br></br>Other than working in product I am the Chief Illustration Officer at <a href="https://www.jamlondon.io/" target="_blank">JAM London</a><br></br>Yes, it's a real title.</p>
         </div>
         <div className="SidePortrait">
         </div>

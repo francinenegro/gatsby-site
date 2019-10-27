@@ -8,8 +8,12 @@ const ProjectPage = () => (
         <div>
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      </link>
+    <a href="/"><i class="material-icons md-48" >arrow_back</i></a>
             <h2>Fast Booking</h2>
-            <h3>Designed for Alidays, a travel company always striving to improve their experience through technology.</h3>
+            <h3>Designed for <a href="http://www.alidays.it/" target="_blank">Alidays</a>, a travel company always striving to improve their experience through technology.</h3>
             <h3>This is an internal tool case study for a platform developed to speed up and aid the employees of the company in their daily tasks.</h3>
         </div>
         </div>
