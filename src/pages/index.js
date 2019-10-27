@@ -11,9 +11,9 @@ const IndexPage = () => (
           {/* <div className="BannerSlim"></div> */}
     <div className="Hero"> 
           <div className="HeroGroup">
-        <h1>Lorem ipsum</h1>
-        <p>I am a Product Designer || Problem solver based in London.
-        <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the about page.</p>
+        <h1>Hey, I'm Francesca</h1>
+        <p>I am a Product Designer || Problem Solver || On occasion illustrator based in London.
+        <br></br>I help digital products move from problems to solutions.<br></br></p>
         </div>
         <div className="HeroGroup">
         <img src="/images/ghost.gif" width="150px"></img>
@@ -30,7 +30,6 @@ const IndexPage = () => (
       ))}
 </div>
 <div className="">
-    {/* <h2>Other projects</h2> */}
   <div className="SecondarySection">
   <h2>Other projects and might be interesting about me and what I did</h2>
     <div className="listItem">
@@ -44,7 +43,7 @@ const IndexPage = () => (
     <h6>Milan, 2019</h6>    
     </div>
     <div className="listItem">
-    <a href="alidays-style">Alidays Web booking</a>
+    <a href="alidays-style">Soldo Onboarding</a>
     <h4>A little copy here about what it was</h4>
     <h6>Milan, 2019</h6>    
     </div>
@@ -59,7 +58,7 @@ const IndexPage = () => (
         <p>I am a Product Designer || Problem solver based in London.
         <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the <a href="https://medium.com/@francine.negro/the-circle-of-product-design-6c78ade2010e">process page</a></p></div>
         <div className="">
-        <img src="/images/ghost.gif" width="150px"></img>
+        <img src="/images/lightbulb1.png" width="150px"></img>
         </div>
     </div>
   </div>

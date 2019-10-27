@@ -22,7 +22,7 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0 10px 20px rgba (0,0,0, 0.5);
 
     h3 {
-        transform: translateY(-10px)
+        transform: translateY(-6px)
     }
 
     p {
@@ -45,6 +45,7 @@ font-size: 22px;
 text-transform: uppercase;
 text-align: left;
 color: #ffffff;
+font-weight: 800;
 margin-bottom: 4px;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 font-family: 'Raleway', sans-serif;
@@ -56,7 +57,8 @@ font-size: 14x;
 font-weight: 700;
 text-align: left;
 position: relative;
-color: white;
+color: #ffffff;
+opacity: 0.8;
 transition: 0.8s cubic-bezier(0.1, 1, 0.22, 1);
 font-family: 'Raleway', sans-serif;
 `

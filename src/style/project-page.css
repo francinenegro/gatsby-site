@@ -112,6 +112,7 @@ a {
     font-family: 'Raleway', sans-serif;
     margin-left: 300px;
     margin-right: 300px;
+    animation: HeroAnimation 3s forwards
 }
 
 

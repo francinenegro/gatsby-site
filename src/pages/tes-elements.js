@@ -40,7 +40,7 @@ const ProjectPage = () => (
       <img src="../images/TES_nav.png"></img>
     <h6>An overview of the new version's navigation, with the 3 layers representing the taxonomy and the right hand column used as a filter to find a specific type of resource.</h6>
     <img src="../images/elements_navigation.gif"></img>
-    <h6>An overview of the new version's navigation, with the 3 layers representing the taxonomy and the right hand column used as a filter to find a specific type of resource.</h6>
+    <h6>Detail interaction of the navigation</h6>
     <h3>The Solution</h3>
     <p>The solution was focusing on the ease of navigation and strength of
         the visual identity.<br></br>A complaint that users made during testing of the
