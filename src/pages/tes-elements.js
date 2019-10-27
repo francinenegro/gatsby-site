@@ -61,7 +61,7 @@ const ProjectPage = () => (
 measured on itself and on the wider product (Tes Resources marketplace).<br></br>The impact of this new version of Tes Elements on the wider product it is a part of (Resources marketplace) is to make the universe of teaching resources more accessible and also to secure a section of the audience that had been feeling left out (a common complaint is that Tes Resources are too focused on secondary students).<br></br>This latter also being achieved with a stronger product identity and branding, for which I took particular engagement in.<br></br>Moreover, in terms of reducing friction for the users looking for relevant content (this was a Q4 OKR), the new navigation served to lay the ground for a similar navigation in the resources product.
 </p>
 <img src="../images/TES_mob.png"></img>
-    <h6>First section of the homepage, where it was pivotal to communicate pricing and offer very clearly.</h6>
+    <h6>Another issue to solve was the mobile navigation. Above, the screens to select one topic and then a sub topic.</h6>
     </div>
   </Layout>
 )

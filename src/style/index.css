@@ -101,9 +101,13 @@
 }
 
 a {
-    color: rgb(234, 61, 61);
+    color: #ffffff;
     font-weight: 400;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(234, 61, 61);
 }
 
 .Hero, .HeroGroup_about {
@@ -264,6 +268,25 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+.SectionGroup a{
+    color: #999999;
+    text-decoration: underline;
+}
+
+.SectionGroup a:hover {
+    color: rgb(234, 61, 61);
+}
+
+.LastSectionGroup a{
+    color: #999999;
+    text-decoration: underline;
+}
+
+.LastSectionGroup a:hover {
+    color: rgb(234, 61, 61);
+}
+
+
 .CardSection{
     animation: HeroAnimation 3s 0.2s forwards; /*forwards stops at the end of the animation and has to be applied here, not in the animation itself*/
     font-size: 22px;
@@ -316,12 +339,12 @@ a {
 }
 
 .SecondarySection a{
-        /* color: #ffffff; */
+        color: #999999;
         text-decoration: underline;
 }
 
 .SecondarySection a:hover{
-    opacity: .6;
+    color: rgb(234, 61, 61);
 }
 
 h6 {

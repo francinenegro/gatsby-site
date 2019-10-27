@@ -9,7 +9,7 @@ height: 300px;
 background-color:rgba(0, 0, 0, 0.5);
 background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
 background: url(${props => props.image}) ; /*pass the image in the props*/
-color: white;   
+color: white; 
 background-size: cover;
 border-radius:4px;
 padding: 15px;
@@ -41,24 +41,23 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 `
 
 const Title = styled.h3 `
-text-transform: uppercase;
 font-size: 22px;
+text-transform: uppercase;
 text-align: left;
-color: #f5f5f5;
+color: #ffffff;
 margin-bottom: 4px;
 transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
 font-family: 'Raleway', sans-serif;
 `
 
 const Text = styled.h6  `
+text-transform: uppercase;
 font-size: 14x;
-font-weight: 400;
+font-weight: 700;
 text-align: left;
 position: relative;
-text-shadow: rgba(0, 0, 0, 0.85) 0px 10px 20px;
 color: white;
-transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+transition: 0.8s cubic-bezier(0.1, 1, 0.22, 1);
 font-family: 'Raleway', sans-serif;
 `
 

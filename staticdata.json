@@ -11,13 +11,13 @@
         {
             "title": "Tes",
             "text":  "Elements",
-            "image": "/images/soldo-webapp.jpg",
+            "image": "/images/TES_cover.png",
             "link": "/tes-elements"
         },
         {
             "title": "Soldo",
             "text":  "Webapp",
-            "image": "/images/soldo-webapp.jpg",
+            "image": "/images/Soldo_cover.png",
             "link": "/soldo-webapp"
         }
     ]
