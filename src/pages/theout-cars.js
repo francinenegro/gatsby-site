@@ -14,7 +14,7 @@ const ProjectPage = () => (
     <a href="/"><i class="material-icons md-48" >arrow_back</i></a>
       <h2>Tes Elements</h2>
             <h3>Making taxonomy navigation children friendly.<br></br> 
-            <br></br><a href="https://www.tes.com/en-us/" target="_blank">Tes</a> is a leading  teacher-focused EdTech company, whose products range from various job boards, a teaching resources marketplace, news sections and online and offline courses. <a href="https://www.tes.com/store/elements" target="_blank">Tes Elements</a> - which sits in the resources marketplace - is a subscription-only set of primary and secondary teaching resources.</h3>
+            <br></br><a href="https://www.tes.com/en-us/">Tes</a> is a leading  teacher-focused EdTech company, whose products range from various job boards, a teaching resources marketplace, news sections and online and offline courses. <a href="https://www.tes.com/store/elements">Tes Elements</a> - which sits in the resources marketplace - is a subscription-only set of primary and secondary teaching resources.</h3>
         </div>
         </div>
         </div>
