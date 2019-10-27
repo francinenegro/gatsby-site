@@ -9,7 +9,7 @@ const ProjectPage = () => (
         <div className="Project-Hero"> 
           <div className="Project-HeroGroup">
             <h2>Wallet manager</h2>
-            <h3>Designed for Soldo Business.<br></br> Soldo is a payment platform that allows companies to control more efficiently their employees' spending.</h3>
+            <h3>Making sure you nevere run out of funds again.<br></br><br></br>Designed for Soldo Business.<br></br> Soldo is a payment platform that allows companies to control more efficiently their employees' spending.</h3>
         </div>
         </div>
         </div>
