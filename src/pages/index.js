@@ -34,12 +34,12 @@ const IndexPage = () => (
   <div className="SecondarySection">
   <h2>Other projects and might be interesting about me and what I did</h2>
     <div className="listItem">
-    <a href="alidays-style">Alidays App</a>
+    <a href="alidays-app">Alidays App</a>
     <h4>A little copy here about what it was, what I did for the project and such</h4>
     <h6>Milan, 2019</h6>
     </div>
     <div className="listItem">
-    <a href="alidays-style">Soldo App</a>
+    <a href="alidays-fast">Alidays Fast booking</a>
     <h4>A little copy here about what it was</h4>
     <h6>Milan, 2019</h6>    
     </div>

@@ -9,16 +9,16 @@
             "link": "/soldo-app"
         },
         {
-            "title": "Soldo",
-            "text":  "Web app",
+            "title": "Tes",
+            "text":  "Elements",
             "image": "/images/soldo-webapp.jpg",
-            "link": "/soldo-webapp"
+            "link": "/tes-elements"
         },
         {
-            "title": "Alidays",
-            "text":  "App onboarding",
-            "image": "/images/alidays-onboarding.jpg",
-            "link": "/alidays-onboarding"
+            "title": "Soldo",
+            "text":  "Webapp",
+            "image": "/images/soldo-webapp.jpg",
+            "link": "/soldo-webapp"
         }
     ]
 
