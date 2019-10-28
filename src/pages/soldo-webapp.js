@@ -35,7 +35,7 @@ const ProjectPage = () => (
       the need to avoid misconfigurations or create looping transfers, the
       pivotal need to serve the user goals.</p>
     <h3>The Solution</h3>
-    <p>the solution was starting to research the problem to better
+    <p>The first step was starting to research the problem to better
         understand the problem we were trying to solve: admins needed
         to automate the process of topping up the user’s wallets to keep
         them going.<br></br> I started pulling some data on the current situation of
@@ -58,7 +58,7 @@ const ProjectPage = () => (
     and make more granular their daily managing of funds among
     employees.<br></br>During the user testing sessions, many needs emerged
     that are now driving further development.</p>
-    <img src="../images/soldo-webapp4.png"></img>
+    <img id="myImg" src="../images/soldo-webapp4.png"></img>
     <h6>Complete flow of the new version</h6>
     </div>
   </Layout>
