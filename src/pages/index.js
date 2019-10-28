@@ -8,7 +8,6 @@ import '../style/index.css'
 const IndexPage = () => (
   <Layout>
         <div>
-          {/* <div className="BannerSlim"></div> */}
     <div className="Hero"> 
           <div className="HeroGroup">
         <h1>Hey, I'm Francesca</h1>
