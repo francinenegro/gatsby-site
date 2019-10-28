@@ -34,7 +34,7 @@ const IndexPage = () => (
   <h2>Other projects I worked on in this lifetime</h2>
     <div className="listItem">
     <div className="listItem">
-    <a href="soldo-app">Soldo app</a>
+    <a href="soldo-mobile">Soldo App</a>
     <h4>Soldo's app, specifically designed for admins to keep an eye on the employee's spending.</h4>
     <h6>Fintech, 2018</h6>    
     </div>
