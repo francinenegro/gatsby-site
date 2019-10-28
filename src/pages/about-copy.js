@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import '../style/project-page.css'
 
-const AboutPage = () => (
+const ProjectPage = () => (
   <Layout>
           <div className="About_container"> 
           <img src="/images/portrait.JPEG"></img>
@@ -28,4 +28,4 @@ I illustrate (stickers anyone?) and write for <a href="https://www.jamlondon.io/
   </Layout>
 )
 
-export default AboutPage
+export default ProjectPage
