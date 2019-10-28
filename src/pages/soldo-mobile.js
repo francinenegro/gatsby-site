@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import '../style/project-page-copy.css'
+import '../style/project-page.css'
 
 const ProjectPage = () => (
   <Layout>

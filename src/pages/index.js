@@ -37,12 +37,12 @@ const IndexPage = () => (
     <h4>Soldo's app, specifically designed for admins to keep an eye on the employee's spending.</h4>
     <h6>Fintech, 2018</h6>    
     </div>
-    <a href="alidays-app">Alidays App</a>
+    <Link to="alidays-app">Alidays App</Link>
     <h4>The company's first app, dedicated to the customers that had booked a trip and also who wanted to discover what to do during their trip.</h4>
     <h6>Travel, 2016</h6>
     </div>
     <div className="listItem">
-    <a href="alidays-fast">Alidays Fast booking</a>
+    <Link to="alidays-fast">Alidays Fast Booking</Link>
     <h4>A new approach to booking hotels and flights to satisfy the need of internal users.</h4>
     <h6>Travel, 2016</h6>    
     </div>
@@ -65,7 +65,7 @@ const IndexPage = () => (
    <div className="LastSectionGroup">
         <div>
         <h2>About me</h2>
-        <p>So, if you scrolled this far you might be interested to click on <br></br>this magic link here to the <a href="about">about page</a> where some light will be shed on<br></br> the mystery author.<br></br>Other than working in product I am the Chief Illustration Officer at <a href="https://www.jamlondon.io/" target="_blank">JAM London</a><br></br>Yes, it's a real title.</p>
+        <p>So, if you scrolled this far you might be interested to click on <br></br>this magic link here to the <Link to="about">about page</Link> where some light will be shed on<br></br> the mystery author.<br></br>Other than working in product I am the Chief Illustration Officer at <a href="https://www.jamlondon.io/" target="_blank">JAM London</a><br></br>Yes, it's a real title.</p>
         </div>
         <div className="SidePortrait">
         </div>
