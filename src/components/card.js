@@ -6,6 +6,7 @@ const CardContainer = styled.div`
 min-width: 260px;
 width:320px;
 height: 300px;
+text-decoration: none;
 background-color:rgba(0, 0, 0, 0.5);
 background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
 background: url(${props => props.image}) ; /*pass the image in the props*/
@@ -43,6 +44,7 @@ transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 const Title = styled.h3 `
 font-size: 22px;
 text-transform: uppercase;
+text-decoration: none;
 text-align: left;
 color: #ffffff;
 font-weight: 800;
@@ -53,6 +55,7 @@ font-family: 'Raleway', sans-serif;
 
 const Text = styled.h6  `
 text-transform: uppercase;
+text-decoration: none;
 font-size: 14x;
 font-weight: 700;
 text-align: left;

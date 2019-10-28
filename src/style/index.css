@@ -203,6 +203,11 @@ a:hover {
     min-width: 0;
 }
 
+.CardGroup a{
+  
+    text-decoration: none !important;
+}
+
 @media (max-width: 1024px) {
 
     .CardGroup {

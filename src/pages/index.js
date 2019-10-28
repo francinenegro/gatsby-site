@@ -22,7 +22,7 @@ const IndexPage = () => (
 <div className="CardSection">
 <h2>Case studies</h2>
 <p>I am a Product Designer || Problem solver based in London.
-        <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the about page.</p>
+        <br></br>I help digital products move from problems to solutions.<br></br> Below are a few of the most recent projects that I worked on, with more detailed use cases. A selection of others can be found further below.</p>
 <div className="CardGroup">
       {staticdata.cards.map(card => ( 
         <Card {...card } />
