@@ -58,7 +58,8 @@
     .CardSection {
         margin-left: 0px !important;
         margin-right: 0px !important;
-        
+        padding-left: 25px;
+        padding-right: 25px;   
     }
 
     .LastSectionGroup {
@@ -241,7 +242,7 @@ a:hover {
         height: 300px;
         position: relative;
         background-attachment: fixed;
-        max-width: 100%;
+        width: 100%;
     }
 }
 
