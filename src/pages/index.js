@@ -24,12 +24,13 @@ const IndexPage = () => (
 <h2>Case studies</h2>
 <p>I am a Product Designer || Problem solver based in London.
         <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the about page.</p>
+</div>        
 <div className="CardGroup">
       {staticdata.cards.map(card => ( 
         <Card {...card } />
       ))}
 </div>
-<div className="">
+
   <div className="SecondarySection">
   <h2>Other projects I worked on in this lifetime</h2>
     <div className="listItem">
@@ -47,8 +48,6 @@ const IndexPage = () => (
     <h4>A new approach to booking hotels and flights to satisfy the need of internal users.</h4>
     <h6>Travel, 2016</h6>    
     </div>
-  </div>
-</div>
 </div>
   <div className="Banner"></div>
 <div> 

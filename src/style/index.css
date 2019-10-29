@@ -39,12 +39,12 @@
     }
     
     .Hero {
-        margin-left: 40px !important;
-        margin-right: 40px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
         margin-top: 20px !important;;
         grid-template-columns: repeat(1, auto) !important;
-        justify-items: center !important;
-        align-items: center !important;
+        justify-items: left !important;
+        align-items: left !important;
         /* margin: 0 !important; */
 }
 
@@ -58,8 +58,10 @@
     .CardSection {
         margin-left: 0px !important;
         margin-right: 0px !important;
-        padding-left: 25px;
-        padding-right: 25px;   
+    }
+
+    .CardGroup {
+        padding: 0px !important;
     }
 
     .LastSectionGroup {
@@ -69,6 +71,11 @@
         align-items: center !important;
         justify-items: center !important;
         margin: 0;
+}
+
+.SecondarySection {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 }
@@ -127,7 +134,7 @@ a:hover {
 @media (max-width: 640px) {
 
     .HeroGroup {
-        padding: 10px 20px 50px 20px;
+        padding: 10px 20px 20px 20px;
     }
 
     .Hero h1 {
@@ -234,15 +241,7 @@ a:hover {
     }
     
     .Banner {
-        background: url('/images/background_white_sm.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center 35%;
-        margin-bottom: 80px;
-        height: 300px;
-        position: relative;
-        background-attachment: fixed;
-        width: 100%;
+        width:100%;
     }
 }
 
@@ -348,7 +347,9 @@ a:hover {
 }   
 
 .SecondarySection {
-    padding: 30px 0px 150px 0px; 
+    padding: 30px 40px 150px 40px; 
+    margin-left: 50px;
+    margin-right: 50px; 
     display: grid;
     grid-auto-columns: auto;
     grid-column-gap: 50px;
