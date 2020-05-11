@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 
 const CardContainer = styled.div`
 min-width: 260px;
-width:320px;
+width:360px;
 height: 300px;
 background-color:rgba(0, 0, 0, 0.5);
 background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);

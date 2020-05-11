@@ -12,7 +12,8 @@ const IndexPage = () => (
     <div className="Hero"> 
           <div className="HeroGroup">
         <h1>Hey, I'm Francesca</h1>
-        <p>I am a Product Designer || Problem Solver || On occasion illustrator based in London.
+        <p>I am a Product Designer,<br>
+        </br>occasional illustrator based in London.
         <br></br>I help digital products move from problems to solutions.<br></br></p>
         </div>
         <div className="HeroGroup">
@@ -22,15 +23,22 @@ const IndexPage = () => (
 <div className="Banner"></div>
 <div className="CardSection">
 <h2>Case studies</h2>
-<p>I am a Product Designer || Problem solver based in London.
-        <br></br>I help digital products move from problems to solutions.<br></br> A little more about me to fill the void and some more words and a link to the about page.</p>
+<p>I help digital products move from problems to solutions.<br></br>
+Below are a few of the most recent projects that I worked on, with more detailed use cases.<br></br>A selection of others can be found further below.</p>
 </div>        
 <div className="CardGroup">
       {staticdata.cards.map(card => ( 
         <Card {...card } />
       ))}
 </div>
-
+<div className="LastSectionGroup">
+        <div>
+        <h2>Playground</h2>
+        <p>So, if you scrolled this far you might be interested to click on <br></br>this magic link here to the <a href="about">about page</a> where some light will be shed on<br></br> the mystery author.<br></br>Other than working in product I am the Chief Illustration Officer at <a href="https://dribbble.com/playbook/" target="_blank">My design</a><br></br>Yes, it's a real title.</p>
+        </div>
+        <div className="SideProject">
+        </div>
+        </div>
   <div className="SecondarySection">
   <h2>Other projects I worked on in this lifetime</h2>
     <div className="listItem">
@@ -40,7 +48,7 @@ const IndexPage = () => (
     <h6>Fintech, 2018</h6>    
     </div>
     <a href="alidays-app">Alidays App</a>
-    <h4>The company's first app, dedicated to the customers that had booked a trip and also who wanted to discover what to do during their trip.</h4>
+    <h4>The company's first app, dedicated to the customers that had booked a trip.</h4>
     <h6>Travel, 2016</h6>
     </div>
     <div className="listItem">
@@ -48,7 +56,7 @@ const IndexPage = () => (
     <h4>A new approach to booking hotels and flights to satisfy the need of internal users.</h4>
     <h6>Travel, 2016</h6>    
     </div>
-</div>
+  </div>
   <div className="Banner"></div>
 <div> 
    <div className="SectionGroup">
