@@ -30,7 +30,6 @@ Below are a few of the most recent projects that I worked on, with more detailed
         <Card {...card } />
       ))}
 </div>
-<div className="">
 <div className="LastSectionGroup">
         <div>
         <h2>Playground</h2>
