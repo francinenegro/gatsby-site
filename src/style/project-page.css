@@ -10,7 +10,7 @@ font-weight: 300;
 margin-left: 80px;
 }
 
-a {
+.Project-Hero a {
     font-weight: 900;
     background-image: linear-gradient(#E86F3F, #9163CB);
     -webkit-background-clip: text;
@@ -236,6 +236,7 @@ animation: HeroAnimation 3s 0.2s forwards;
     font-weight: 700;
     background-image: linear-gradient(#E86F3F, #9163CB);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: underline !important;
 }

@@ -212,7 +212,7 @@ a:hover {
 }
 
 .CardGroup a{
-  
+    color: white !important;
     text-decoration: none !important;
 }
 
