@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import '../style/project-page.css'
+import { Script } from 'vm'
 
 const ProjectPage = () => (
   <Layout>
@@ -65,7 +66,5 @@ measured on itself and on the wider product (Tes Resources marketplace).<br></br
     </div>
   </Layout>
 )
-
-
 
 export default ProjectPage
