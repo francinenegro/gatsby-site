@@ -4,14 +4,14 @@ import { Link } from '@reach/router';
 
 const CardContainer = styled.div`
 min-width: 260px;
-width:360px;
+width:320px;
 height: 300px;
 background-color:rgba(0, 0, 0, 0.5);
 background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
 background: url(${props => props.image}) ; /*pass the image in the props*/
 color: white; 
 background-size: cover;
-border-radius:4px;
+border-radius:10px;
 padding: 15px;
 // margin: 10px;
 cursor: pointer;

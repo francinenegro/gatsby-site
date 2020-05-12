@@ -1,5 +1,5 @@
  body {
-            font-size: 18px;
+            font-size: 22px;
             font-family: 'Raleway', sans-serif;
             color: white;
             line-height: 1.5;
@@ -273,6 +273,15 @@ a:hover {
     border-radius: 4px;
 }
 
+.SectionGroup img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .SectionGroup p {
     font-size: 22px;
     line-height: 1.5;
@@ -284,21 +293,29 @@ a:hover {
 }
 
 .SectionGroup a{
-    color: #999999;
-    text-decoration: underline;
+    font-weight: 600;
+    background-image: linear-gradient(#E86F3F, #9163CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline !important;
 }
 
 .SectionGroup a:hover {
-    color: rgb(234, 61, 61);
+    background-image: linear-gradient(45deg, #F2C94C, #FF2687) !important;
+    background-position: 80% 0;
 }
 
 .LastSectionGroup a{
-    color: #999999;
-    text-decoration: underline;
+    font-weight: 600;
+    background-image: linear-gradient(#E86F3F, #9163CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline !important;
 }
 
 .LastSectionGroup a:hover {
-    color: rgb(234, 61, 61);
+    background-image: linear-gradient(45deg, #F2C94C, #FF2687) !important;
+    background-position: 80% 0;
 }
 
 
@@ -356,12 +373,23 @@ a:hover {
 }
 
 .SecondarySection a{
-        color: #999999;
-        text-decoration: underline;
+    font-size: 22px;
+    font-weight: 700;
+    background-image: linear-gradient(#E86F3F, #9163CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline !important;
 }
 
 .SecondarySection a:hover{
-    color: rgb(234, 61, 61);
+    background-image: linear-gradient(45deg, #F2C94C, #FF2687) !important;
+    background-position: 80% 0;
+}
+
+.SecondarySection p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 h6 {
@@ -397,22 +425,23 @@ h6 {
 }
 
 .SidePortrait {
-    background: url("/images/portrait.JPEG");
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
+    background: url("/images/me.JPG");
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
 }
 
 .SideProject {
-    background: url("/images/Slice 1.jpg");
-    /* width: 150px;
-    height: 150px; */
-    /* border-radius: 100px; */
+    background: url("/images/Playground.png");
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
-}
+    
+} 
 
 .BannerLast {
     background: url('/images/background_white_sm.png');
@@ -426,3 +455,6 @@ h6 {
     background-attachment: fixed;
 }
 
+.listItem {
+    padding-bottom: 20px;
+}

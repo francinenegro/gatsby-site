@@ -34,26 +34,26 @@ Below are a few of the most recent projects that I worked on, with more detailed
 <div className="LastSectionGroup">
         <div>
         <h2>Playground</h2>
-        <p>So, if you scrolled this far you might be interested to click on <br></br>this magic link here to the <a href="about">about page</a> where some light will be shed on<br></br> the mystery author.<br></br>Other than working in product I am the Chief Illustration Officer at <a href="https://dribbble.com/playbook/" target="_blank">My design</a><br></br>Yes, it's a real title.</p>
+        <p>Sometimes all work and no play make people go insane.<br></br>A collection of ramdom and not so random design stuff is <a href="https://dribbble.com/playbook/" target="_blank">in my playbook</a>.<br></br> Or for ramblings and such <a href="https://medium.com/@francine.negro">my Medium page</a>.</p>
         </div>
         <div className="SideProject">
         </div>
         </div>
   <div className="SecondarySection">
-  <h2>Other projects I worked on in this lifetime</h2>
+  <h2>Other projects</h2>
     <div className="listItem">
     <div className="listItem">
     <a href="soldo-app">Soldo app</a>
-    <h4>Soldo's app, specifically designed for admins to keep an eye on the employee's spending.</h4>
+    <p>Soldo's app, specifically designed for admins to keep an eye on the employee's spending.</p>
     <h6>Fintech, 2018</h6>    
     </div>
     <a href="alidays-app">Alidays App</a>
-    <h4>The company's first app, dedicated to the customers that had booked a trip.</h4>
+    <p>The company's first app, dedicated to the customers that had booked a trip.</p>
     <h6>Travel, 2016</h6>
     </div>
     <div className="listItem">
     <a href="alidays-fast">Alidays Fast booking</a>
-    <h4>A new approach to booking hotels and flights to satisfy the need of internal users.</h4>
+    <p>A new approach to booking hotels and flights to satisfy the need of internal users.</p>
     <h6>Travel, 2016</h6>    
     </div>
   </div>
@@ -65,7 +65,7 @@ Below are a few of the most recent projects that I worked on, with more detailed
         <p>When the stars align, The Process shows itself in its overwhelming splendor.
         <br></br>To commemorate that moment, I wrote an article about it - <a href="https://medium.com/@francine.negro/the-circle-of-product-design-6c78ade2010e" target="_blank">The Process</a> - <br></br> and how I like to use it to make better decisions in product stuff.<br></br>I promise it's worth the 7 minute read.</p></div>
         <div className="">
-        <img src="/images/lightbulb1.png" width="150px"></img>
+        <img src="/images/process1.jpg"></img>
         </div>
     </div>
   </div>
